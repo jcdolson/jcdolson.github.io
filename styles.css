@@ -1,5 +1,5 @@
 body {
-    background: lightblue;
+    background: #87CEFA;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -7,15 +7,29 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:lightgray;
+    background:#778899;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin: 10px;
+    border: 4px solid #87CEFA;
+}
+
+.assignment img:hover {
+    border:4px #F5FFFA;
 }
 
 h1 {
     color: darkblue;
     text-align:center;
+}
+
+a {
+    text-decoration: none ;
+    color: #F5FFFA;
+}
+
+a:hover {
+    color: #87CEFA;
 }
